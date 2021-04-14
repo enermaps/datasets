@@ -59,31 +59,38 @@
            },
            {
              "name": "public_ri_investment",
-             "type": "number"
+             "type": "number",
+             "unit": "EUR million"
            },
            {
              "name": "private_ri_investment",
-             "type": "number"
+             "type": "number",
+             "unit": "EUR million"
            },
            {
              "name": "inventions",
-             "type": "number"
+             "type": "number",
+             "unit": "-"
            },
            {
              "name": "public_ri_investment_eu_share",
-             "type": "number"
+             "type": "number",
+             "unit": "/100"
            },
            {
              "name": "private_ri_investment_eu_share",
-             "type": "number"
+             "type": "number",
+             "unit": "/100"
            },
            {
              "name": "inventions_eu_share",
-             "type": "number"
+             "type": "number",
+             "unit": "/100"
            },
            {
              "name": "specialisation_index_inventions",
-             "type": "number"
+             "type": "number",
+             "unit": "-"
            }
          ]
        }
