@@ -75,17 +75,17 @@
            {
              "name": "public_ri_investment_eu_share",
              "type": "number",
-             "unit": "/100"
+             "unit": "decimal"
            },
            {
              "name": "private_ri_investment_eu_share",
              "type": "number",
-             "unit": "/100"
+             "unit": "decimal"
            },
            {
              "name": "inventions_eu_share",
              "type": "number",
-             "unit": "/100"
+             "unit": "decimal"
            },
            {
              "name": "specialisation_index_inventions",
