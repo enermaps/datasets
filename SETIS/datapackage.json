@@ -1,6 +1,7 @@
 {
   "profile": "tabular-data-package",
   "title": "SETIS Research & Innovation country dashboards",
+  "name": "ri-action-dashboard",
   "homepage": "https://data.europa.eu/euodp/data/dataset/jrc-10115-10001",
       "description": "This dataset is obtained through the SETIS Research & Innovation data dashboard.",
       "publishers": [
