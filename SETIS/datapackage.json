@@ -1,93 +1,92 @@
 {
-  "profile": "tabular-data-package",
-  "title": "SETIS Research & Innovation country dashboards",
-  "name": "ri-action-dashboard",
-  "homepage": "https://data.europa.eu/euodp/data/dataset/jrc-10115-10001",
-      "description": "This dataset is obtained through the SETIS Research & Innovation data dashboard.",
-      "publishers": [
-        {
-          "title": "European Commission - Joint Research Centre",
-          "role": "author"
-        },
-        {
-          "title": "G. Peronato",
-          "organisation": "EnerMaps",
-          "email": "gperonato@idiap.ch",
-          "role": "wrangler"
-        }
-      ],
-      "licenses": [
-        {
-          "name": "CC-BY-4.0",
-          "title": "Creative Commons Attribution 4.0",
-          "path": "https://creativecommons.org/licenses/by/4.0/"
-        }
-      ],
-  "datePublished": "2021-04-12",
-  "resources": [
-    {
-      "path": "ri-action-dashboard.csv",
-      "name": "ri-action-dashboard",
-      "profile": "tabular-data-resource",
-      "scheme": "file",
-      "format": "csv",
-      "hashing": "md5",
-      "stats": {
-        "hash": "5798fececfb4794de068d978fb48f904",
-        "bytes": 536937,
-        "fields": 11,
-        "rows": 5481
-      },
-      "encoding": "utf-8",
-      "schema": {
-        "fields": [
-          {
-            "name": "country",
-            "type": "string"
-          },
-          {
-            "name": "year",
-            "type": "integer"
-          },
-          {
-            "name": "action",
-            "type": "string"
-          },
-          {
-            "name": "priority",
-            "type": "string"
-          },
-          {
-            "name": "public_ri_investment",
-            "type": "number"
-          },
-          {
-            "name": "private_ri_investment",
-            "type": "number"
-          },
-          {
-            "name": "inventions",
-            "type": "number"
-          },
-          {
-            "name": "public_ri_investment_eu_share",
-            "type": "number"
-          },
-          {
-            "name": "private_ri_investment_eu_share",
-            "type": "number"
-          },
-          {
-            "name": "inventions_eu_share",
-            "type": "number"
-          },
-          {
-            "name": "specialisation_index_inventions",
-            "type": "number"
-          }
-        ]
-      }
-    }
-  ],
-  "profile": "data-package"
-}
+   "profile": "tabular-data-package",
+   "title": "SETIS Research & Innovation country dashboards",
+   "homepage": "https://data.europa.eu/euodp/data/dataset/jrc-10115-10001",
+   "description": "This dataset is obtained through the SETIS Research & Innovation data dashboard.",
+   "publishers": [
+     {
+       "title": "European Commission - Joint Research Centre",
+       "role": "author"
+     },
+     {
+       "title": "G. Peronato",
+       "organisation": "EnerMaps",
+       "email": "gperonato@idiap.ch",
+       "role": "wrangler"
+     }
+   ],
+   "licenses": [
+     {
+       "name": "CC-BY-4.0",
+       "title": "Creative Commons Attribution 4.0",
+       "path": "https://creativecommons.org/licenses/by/4.0/"
+     }
+   ],
+   "datePublished": "2021-04-12",
+   "resources": [
+     {
+       "path": "ri-action-dashboard.csv",
+       "name": "ri-action-dashboard",
+       "profile": "tabular-data-resource",
+       "scheme": "file",
+       "format": "csv",
+       "hashing": "md5",
+       "stats": {
+         "hash": "5798fececfb4794de068d978fb48f904",
+         "bytes": 536937,
+         "fields": 11,
+         "rows": 5481
+       },
+       "encoding": "utf-8",
+       "schema": {
+         "fields": [
+           {
+             "name": "country",
+             "type": "string"
+           },
+           {
+             "name": "year",
+             "type": "integer"
+           },
+           {
+             "name": "action",
+             "type": "string"
+           },
+           {
+             "name": "priority",
+             "type": "string"
+           },
+           {
+             "name": "public_ri_investment",
+             "type": "number"
+           },
+           {
+             "name": "private_ri_investment",
+             "type": "number"
+           },
+           {
+             "name": "inventions",
+             "type": "number"
+           },
+           {
+             "name": "public_ri_investment_eu_share",
+             "type": "number"
+           },
+           {
+             "name": "private_ri_investment_eu_share",
+             "type": "number"
+           },
+           {
+             "name": "inventions_eu_share",
+             "type": "number"
+           },
+           {
+             "name": "specialisation_index_inventions",
+             "type": "number"
+           }
+         ]
+       }
+     }
+   ],
+   "profile": "data-package"
+ }
